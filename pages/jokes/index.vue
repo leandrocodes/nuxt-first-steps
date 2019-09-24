@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Welcome to the best Corny DadJokes App!</h2>
+        <h1>Jokes</h1>
     </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
     head() {
         return {
-            title: 'Home - Dad Jokes',
+            title: 'About Us - Dad Jokes',
             meta: [
                 {
                     hid: 'description',
