@@ -1,5 +1,5 @@
 <template>
-  <div class = "container">
+  <div class="container">
     <AppHeader />
     <nuxt />
   </div>
@@ -15,34 +15,33 @@ export default {
 </script>
 
 <style>
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    background: #f4f4f4
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background: #f4f4f4;
 }
 
 a {
-    color: #666;
-    text-decoration: none;
+  color: #666;
+  text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
 .container {
-    max-width: 800px;
-    margin: 2rem auto;
-    overflow: hidden;
-    padding: 1rem 2rem;
-    background: #fff;
+  max-width: 800px;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  background: #fff;
 }
-
 </style>
